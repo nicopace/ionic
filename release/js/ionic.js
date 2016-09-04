@@ -13,7 +13,6 @@
  */
 
 var angular = require('angular');
-var Modernizr = require('modernizr');
 
 (function() {
 

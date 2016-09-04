@@ -8,8 +8,7 @@
   },
   "main": "release/js/ionic.js",
   "dependencies": {
-    "angular": "1.5.8",
-    "modernizr": "3.3.1"
+    "angular": "1.5.8"
   },
   "devDependencies": {
     "canonical-path": "0.0.2",
