@@ -12,6 +12,9 @@
  *
  */
 
+var angular = require('angular');
+var Modernizr = require('modernizr');
+
 (function() {
 
 // Create global ionic obj and its namespaces
@@ -19,6 +22,8 @@
 window.ionic = window.ionic || {};
 window.ionic.views = {};
 window.ionic.version = '1.3.1';
+
+module.exports = window.ionic;
 
 (function (ionic) {
 
