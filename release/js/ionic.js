@@ -12,8 +12,6 @@
  *
  */
 
-var angular = require('angular');
-
 (function() {
 
 // Create global ionic obj and its namespaces
@@ -21,8 +19,6 @@ var angular = require('angular');
 window.ionic = window.ionic || {};
 window.ionic.views = {};
 window.ionic.version = '1.3.1';
-
-module.exports = window.ionic;
 
 (function (ionic) {
 
